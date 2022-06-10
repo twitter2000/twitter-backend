@@ -62,7 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'src.twitterSentimentalAnalysis.urls'
+ROOT_URLCONF = 'twitterSentimentalAnalysis.urls'
 
 TEMPLATES = [
     {
