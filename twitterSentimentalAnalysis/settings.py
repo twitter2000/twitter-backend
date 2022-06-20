@@ -87,9 +87,17 @@ WSGI_APPLICATION = 'twitterSentimentalAnalysis.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd5v8g2ob59o1jr',                      
+        'USER': 'lesvippeglsfkv',
+        'PASSWORD': 'c93a9a43922e5fbcf97f75c7554da53dabd0124111e2c69d97070e951ddc8e26',
+        'HOST': 'ec2-34-198-186-145.compute-1.amazonaws.com',
+        'PORT': 5432,
     }
 }
 
